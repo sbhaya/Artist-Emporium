@@ -4,6 +4,7 @@ import Sunidhi from '../Asset/Sunidhi.png'
 import { Container, Row, Col } from 'react-grid-system';
 
 
+
 const Home = () =>
 
 {
@@ -21,29 +22,23 @@ const Home = () =>
 					</Row>
 					</Container>
 			
-			<div className="bg ">				
+			<div className="bg">
+				<div className="px-3 pb-5">				
 				<Container fluid>
 					<Row >
-						<Col > <GlassCard text="SHOP"/></Col>
-						<Col ><GlassCard text="NOTIFY" /></Col>
+						<Col><GlassCard text="SHOP" route="/shop" /></Col>
+							<Col ><GlassCard text="NOTIFY" route="/notify"   /></Col>
 					</Row>
 					<Row >
-						<Col > <GlassCard text="CHAT" /></Col>
-						<Col ><GlassCard text="WALLET" /></Col>
+							<Col ><GlassCard text="CHAT" route="/chat"  /></Col>
+							<Col ><GlassCard text="WALLET" route="/wallet"  /></Col>
 					</Row>
 					<Row >
-						<Col > <GlassCard text="SERVICES" /></Col>
-						<Col ><GlassCard text="PROFILE" /></Col>
+							<Col ><GlassCard text="SERVICES" route="/services"  /></Col>
+							<Col ><GlassCard text="PROFILE" route="/profile"  /></Col>
 					</Row>
 				</Container>
-					
-				
-				
-					
-			
-			
-				
-
+				</div>
 			</div>
 		</>
 		

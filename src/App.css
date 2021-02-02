@@ -3,19 +3,88 @@
 
 
 @media (min-width: 414px) {
-    .container
-{
-    padding: 18px 52px 18px 52px;
-    
-}
+    .container {
+        padding: 18px 52px 18px 52px;
+    }
+
     .bg {
         background-image: url(./Asset/Background.png);
-        margin-top:23px;
-        padding:0px 30px 105px 30px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
-   .cardhome{
-       width:145px;
-       height:118px;
-       margin-top:20px;
-   }
+
+    .cardhome {
+        width: 145px;
+        height: 118px;
+        margin-top: 20px;
+    }
+
+    .cardshop {
+        width: 120px;
+        height: 164px;
+        margin-top: 15px;
+        padding: 6px 4px 6px 4px;
+    }
+
+    .mybutton {
+        width: 24px;
+        height: 24px;
+        background: #FFFFFF;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50%;
+    }
+
+    .cardimg {
+        position: absolute;
+        left: 12.91%;
+        right: 12.92%;
+        top: 4.27%;
+        bottom: 50.01%;
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 5px;
+        transform: rotate(0.38deg);
+    }
+
+    .glasscard {
+        background: rgba(255, 255, 255, 0.45);
+        border: 1px solid #FFFFFF;
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 10px;
+    }
+
+    h2 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        color: #215276;
+    }
+
+    h5 {
+        font-size: 8px;
+        line-height: 9px;
+        color: #215276;
+    }
+
+    .rupeelabel {
+        position: absolute;
+        left: 12.5%;
+        right: 7.5%;
+        top: 68%;
+        bottom: 22%;
+        background: #215276;
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 10px;
+    }
+
+    .linkstyle {
+        color: black;
+    }
+
+        .linkstyle:hover {
+            color: pink;
+            transition: all 0.75s 0.25s;         
+        }
+          
 }
