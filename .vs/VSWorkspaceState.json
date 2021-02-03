@@ -4,8 +4,9 @@
     "\\public",
     "\\src",
     "\\src\\Component",
-    "\\src\\Pages"
+    "\\src\\Pages",
+    "\\src\\Pages\\Shop"
   ],
-  "SelectedNode": "\\src\\index.js",
+  "SelectedNode": "\\src\\Component\\ShopCard.js",
   "PreviewInSolutionExplorer": false
 }

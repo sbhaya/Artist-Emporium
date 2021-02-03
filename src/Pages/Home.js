@@ -12,15 +12,15 @@ const Home = () =>
 	return (
 		<>
 			
-				<Container className="container d-flex justify-content-center">
-					<Row>
+				<Container className=" container d-flex justify-content-center">
+				<Row >
 					<Col>
-						<img style={{ marginLeft: "30px" }} src={Sunidhi} alt="Sunidhi" />
-						<h6 className="d-flex justify-content-center">Namaste</h6>
-						<h1>Sunidhi</h1>
+						<img style={{ marginLeft:'10%' }} src={Sunidhi} alt="Sunidhi" />
+						<h5 className="d-flex justify-content-center">Namaste</h5>
+						<h3 >Sunidhi</h3>
 						</Col>
 					</Row>
-					</Container>
+				</Container>
 			
 			<div className="bg">
 				<div className="px-3 pb-5">				

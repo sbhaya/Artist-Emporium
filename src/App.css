@@ -2,7 +2,8 @@
 
 
 
-@media (min-width: 414px) {
+@media (min-width: 414px) {  
+
     .container {
         padding: 18px 52px 18px 52px;
     }
@@ -42,18 +43,17 @@
         bottom: 50.01%;
         /* Note: backdrop-filter has minimal browser support */
         border-radius: 5px;
-        transform: rotate(0.38deg);
+       
     }
 
-    .glasscard {
+    .glasscard, .descbox {
         background: rgba(255, 255, 255, 0.45);
         border: 1px solid #FFFFFF;
         backdrop-filter: blur(4px);
-        /* Note: backdrop-filter has minimal browser support */
         border-radius: 10px;
     }
 
-    h2 {
+    h5 {
         font-style: normal;
         font-weight: bold;
         font-size: 12px;
@@ -61,21 +61,20 @@
         color: #215276;
     }
 
-    h5 {
+    h6 {
         font-size: 8px;
         line-height: 9px;
         color: #215276;
     }
 
-    .rupeelabel {
-        position: absolute;
+    .rupeelabel{       
         left: 12.5%;
         right: 7.5%;
-        top: 68%;
-        bottom: 22%;
         background: #215276;
-        /* Note: backdrop-filter has minimal browser support */
+        padding-top:2%;
+        padding-left:5%;
         border-radius: 10px;
+        position:absolute;
     }
 
     .linkstyle {
@@ -86,5 +85,18 @@
             color: pink;
             transition: all 0.75s 0.25s;         
         }
-          
+    .descimage {      
+        border-radius: 10px;
+        
+    }
+    .descbox {
+        position: absolute;
+        left: 51%;
+        right: 7.25%;
+        top: 16%;
+        background: rgba(208, 255, 127, 0.5);
+        border: 1px solid rgba(208, 255, 127, 0.5);
+    }
+  
+     
 }

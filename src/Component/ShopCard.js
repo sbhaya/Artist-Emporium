@@ -14,11 +14,11 @@ const ShopCard = ({ pic, cost, Heading, Subhead }) =>
 			<img style={{ borderRadius: '5 px', width: '89px', height: '75px' }} src={pic} className="px-2 col-12 d-flex align-items-center " ></img>
 			<Container className="col-8 pt-1 px-2 d-flex align-items-left">
 				<Row>					
-					<h2>{Heading}<h5>({Subhead})</h5></h2>
+					<h5>{Heading}<h6>({Subhead})</h6></h5>
 				</Row>
 			</Container>
-			<div className="col-8 py-1 px-2 d-flex align-items-left rupeelabel">
-				<h5 style={{ color: 'white' }}>₹ {cost} /-</h5>				
+			<div className="col-8 d-flex align-items-left rupeelabel Rye  " style={{ height: '12px', width: '102px', marginTop:'105px' }}>
+				<h6 style={{ color: 'white' }}>₹ {cost} /-</h6>				
 			</div>
 			<Container className="mt-2 px-3">
 				<Row>

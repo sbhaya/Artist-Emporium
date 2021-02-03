@@ -7,10 +7,10 @@ const GlassCard = ({text, route}) =>
 	return (
 		<Link to={route} className="linkstyle">
 			<div className="cardhome glasscard ">
-				<h6 style={{ padding: '25%' }}
+				<h4 style={{ padding: '25%' }}
 				className="d-flex justify-content-center ">
 				{text}
-			</h6>
+			</h4>
 			</div>
 		</Link>
 		
