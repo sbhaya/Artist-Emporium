@@ -9,14 +9,18 @@ body {
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace, Corbel, cursive,'Rye', cursive;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace, Corbel, cursive,'Rye', cursive, 'Rock Salt', cursive;
 }
 
 .Corbel {
-    font-family: 'Corbel';
+    font-family: 'Corbel', cursive;
 }
 .Rye {
-    font-family: 'Rye';
+    font-family: 'Rye', cursive;
+}
+
+.rock {
+    font-family: 'Rock Salt', cursive;
 }
 
 $theme-colors:(

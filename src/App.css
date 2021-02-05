@@ -46,7 +46,7 @@
        
     }
 
-    .glasscard, .descbox {
+    .glasscard, .descbox , .delbox{
         background: rgba(255, 255, 255, 0.45);
         border: 1px solid #FFFFFF;
         backdrop-filter: blur(4px);
@@ -67,14 +67,28 @@
         color: #215276;
     }
 
-    .rupeelabel{       
+    .catlabel1,.catlabel2, .rupeelabel {
         left: 12.5%;
         right: 7.5%;
         background: #215276;
-        padding-top:2%;
-        padding-left:5%;
+        padding-top: 2%;
+        padding-left: 5%;
         border-radius: 10px;
-        position:absolute;
+        position: absolute;
+    }
+    /*Category Label orange*/
+    .catlabel1 {
+        background-color: #FFB164;
+        position:relative;
+        height:15px;
+        width:65px;
+    }
+
+    .catlabel2 {
+        background-color: #F5D4D4;
+        position: relative;
+        height: 15px;
+        width: 65px;
     }
 
     .linkstyle {
@@ -97,6 +111,12 @@
         background: rgba(208, 255, 127, 0.5);
         border: 1px solid rgba(208, 255, 127, 0.5);
     }
-  
+    .delbox {
+        position: absolute;    
+        top: 55.98%;
+        bottom: 20.38%;
+        background: rgba(255, 177, 100, 0.5); 
+        border:none;
+    }
      
 }

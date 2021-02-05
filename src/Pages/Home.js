@@ -22,7 +22,7 @@ const Home = () =>
 					</Row>
 				</Container>
 			
-			<div className="bg">
+			<div className="bg ">
 				<div className="px-3 pb-5">				
 				<Container fluid>
 					<Row >

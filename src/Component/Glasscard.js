@@ -8,7 +8,7 @@ const GlassCard = ({text, route}) =>
 		<Link to={route} className="linkstyle">
 			<div className="cardhome glasscard ">
 				<h4 style={{ padding: '25%' }}
-				className="d-flex justify-content-center ">
+				className="d-flex justify-content-center rock ">
 				{text}
 			</h4>
 			</div>
