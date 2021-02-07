@@ -5,7 +5,10 @@ import Flower from '../../Asset/flower.png'
 import { Container, Row, Col } from 'react-grid-system';
 import ButtonComp from '../../Component/ButtonComp';
 import shop from '../../Asset/shop.png';
-
+import share from '../../Asset/share.png';
+import chat from '../../Asset/chat.png';
+import { Link } from "react-router-dom";
+import Chat from './Chat';
 
 
 const Desc = () => {
@@ -24,12 +27,12 @@ const Desc = () => {
 			</Container>
 			
 			<div className="bg ">				
-				<div className="glasscard ml-4 row" style={{
-					height: '447px',
-					width: '354px'
+				<div className="glasscard ml-4 row " style={{
+					height: '470px',
+					width: '354px'				
 				}}>
 					<div className="descimage col-5">
-						<img src={Flower} alt="flower"></img>
+						<img src={Flower} alt="flower" style={{width:'165px'}}></img>
 						<h4 className="Corbel mb-0 ml-1"><b>Flower</b></h4>
 						<h5 className="ml-1">Painting</h5>
 							<div className="col-8 d-flex align-items-left rupeelabel Rye  " style={{ height: '25px', width: '80px'}}>
@@ -58,7 +61,12 @@ const Desc = () => {
 								<h5>The art has been painted by hands using poster colors.</h5>
 									<h5><b>Size: </b>A3</h5>
 									<h5><b>Paper: </b>250 GSM</h5>
-									<h5><b>Medium: </b>Poster Color</h5>							
+						<h5><b>Medium: </b>Poster Color</h5>
+						<div className="ml-5 mr-4 d-flex justify-content-between">
+							<ButtonComp pic={share} className="col-2 " />
+							<Link to='/Chat' className="linkstyle"><ButtonComp pic={chat} className="col-2 " /></Link>
+							
+							</div>
 						</div>
 					{/*Orange Card*/}
 				
@@ -68,7 +76,7 @@ const Desc = () => {
 								<h5><b>Delivery charges: </b> <u>₹ 200/-</u></h5>
 								<h5><b>Date of Delivery : </b><u>26th May 2021</u></h5>
 								<h5><b>Total Cost : </b></h5>
-								<ButtonComp pic={shop} />
+						<div className="ml-5"><ButtonComp pic={shop} /></div>
 					</div>
 					
 				
